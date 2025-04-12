@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moviestore>
+    <movie id='M001'>
+        <image>
+            <path>images/2012.jpg</path>
+            <alt>2012 movie</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>2012</title>
+        <duration>158 mins</duration>
+        <year>2009</year>
+    </movie>
+    <movie id='M002'>
+        <image>
+            <path>images/10things.jpg</path>
+            <alt>10 Things </alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>10 Things I Hate</title>
+        <duration>97 mins</duration>
+        <year>1999</year>
+    </movie>
+    <movie id='M003'>
+        <image>
+            <path>images/Babylon-747027954-large.jpg</path>
+            <alt>Babylon</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Babylon </title>
+        <duration>189 mins</duration>
+        <year>2022</year>
+    </movie>
+    <movie id='M004'>
+        <image>
+            <path>images/blackpanther.jpeg</path>
+            <alt>Black Panther</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Black Panther</title>
+        <duration>135 mins</duration>
+        <year>2018</year>
+    </movie>
+    <movie id='M005'>
+        <image>
+            <path>images/crazy-stupid-love-001.webp</path>
+            <alt>Crazy Stupid Love </alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Crazy Stupid Love</title>
+        <duration>118 mins</duration>
+        <year>2011</year>
+    </movie>
+    <movie id='M006'>
+        <image>
+            <path>images/fight_club.jpg</path>
+            <alt>Fight Club</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Fight Club</title>
+        <duration>139 mins</duration>
+        <year>1999</year>
+    </movie>
+    <movie id='M007'>
+        <image>
+            <path>images/goodfellas.jpg</path>
+            <alt>GoodFellas</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>GoodFellas</title>
+        <duration>146 mins</duration>
+        <year>1990</year>
+    </movie>
+    <movie id='M008'>
+        <image>
+            <path>images/Hangover.jpg</path>
+            <alt> The Hangover</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>The Hangover</title>
+        <duration>100 mins</duration>
+        <year>2009</year>
+    </movie>
+    <movie id='M009'>
+        <image>
+            <path>images/inception.jpg</path>
+            <alt>Inception</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>The Inception</title>
+        <duration>148 mins</duration>
+        <year>2010</year>
+    </movie>
+    <movie id='M0010'>
+        <image>
+            <path>images/interstellar.jpg</path>
+            <alt>Interstellar movie</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Interstellar</title>
+        <duration>169 mins</duration>
+        <year>2014</year>
+    </movie>
+    <movie id='M0011'>
+        <image>
+            <path>images/lalaland.jpg</path>
+            <alt>La la Land movie</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>La La Land</title>
+        <duration>128 mins</duration>
+        <year>2016</year>
+    </movie>
+    <movie id='M0012'>
+        <image>
+            <path>images/lion_king.jpg</path>
+            <alt>Lion King </alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title> The Lion King</title>
+        <duration>88 mins</duration>
+        <year>1994</year>
+    </movie>
+    <movie id='M0013'>
+        <image>
+            <path>images/MillionDollarArm.jpg</path>
+            <alt>Million Dollar Arm</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Million Dollar Arm</title>
+        <duration>124 mins</duration>
+        <year>2014</year>
+    </movie>
+    <movie id='M0014'>
+        <image>
+            <path>images/oppenheimer.jpg</path>
+            <alt>Oppenheimer</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Oppenheimer</title>
+        <duration>180 mins</duration>
+        <year>2023</year>
+    </movie>
+    <movie id='M0015'>
+        <image>
+            <path>images/parasite-2019.jpeg</path>
+            <alt>Parasite</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Parasite</title>
+        <duration>132 mins</duration>
+        <year>2019</year>
+    </movie>
+    <movie id='M0016'>
+        <image>
+            <path>images/imitation_game.jpg</path>
+            <alt>imitation</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Imitation</title>
+        <duration>114 mins</duration>
+        <year>2014</year>
+    </movie>
+    <movie id='M0017'>
+        <image>
+            <path>images/private_ryan.jpg</path>
+            <alt>Private Ryan</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Saving Private Ryan</title>
+        <duration>169 mins</duration>
+        <year>1998</year>
+    </movie>
+    <movie id='M0018'>
+        <image>
+            <path>images/Shawshank.jpg</path>
+            <alt>Shawshank</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Shawshank Redemption</title>
+        <duration>142 mins</duration>
+        <year>1994</year>
+    </movie>
+    <movie id='M0019'>
+        <image>
+            <path>images/shutter-island.jpg</path>
+            <alt>Shutter Island</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Shutter Island</title>
+        <duration>138 mins</duration>
+        <year>2010</year>
+    </movie>
+    <movie id='M0020'>
+        <image>
+            <path>images/The_Social_Network_film_poster.png</path>
+            <alt>The_Social_Network_film_poster</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Social Network</title>
+        <duration>120 mins</duration>
+        <year>2010</year>
+    </movie>
+    <movie id='M0021'>
+        <image>
+            <path>images/TheDarkKnightRises_Poster-1.webp</path>
+            <alt>Dark Knight Rises</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Dark Knight Rises</title>
+        <duration>165 mins</duration>
+        <year>2012</year>
+    </movie>
+    <movie id='M0022'>
+        <image>
+            <path>images/theoryofeverything.jpg</path>
+            <alt>Theory of Everything</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Theory of Everything</title>
+        <duration>123 mins</duration>
+        <year>2014</year>
+    </movie>
+    <movie id='M0023'>
+        <image>
+            <path>images/whiplash.webp</path>
+            <alt>Whiplash</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Whiplash</title>
+        <duration>107 mins</duration>
+        <year>2014</year>
+    </movie>
+    <movie id='M0024'>
+        <image>
+            <path>images/Shaolin-Soccer.avif</path>
+            <alt>Shaolin-Soccer</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>Shaolin Soccer</title>
+        <duration>113 mins</duration>
+        <year>2001</year>
+    </movie>
+    <movie id='M0025'>
+        <image>
+            <path>images/White-Lotus.jpg</path>
+            <alt>White-Lotus</alt>
+            <width>200</width>
+            <height>300</height>
+        </image>
+        <title>White-Lotus</title>
+        <duration>132 mins</duration>
+        <year>2025</year>
+    </movie>
+    
+</moviestore>

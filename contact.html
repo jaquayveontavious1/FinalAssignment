@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <h1>✅ Contact Form</h1>
+        <h2>📬 Contact Us</h2>
+        <p>Have a question, suggestion, or just want to chat about movies? Reach out using the form below or contact the right team via the table.</p>
+        <hr>
+        <h2>Contact Form</h2>
+        <form onsubmit="sendMessage(event)" method="POST" style="max-width: 600px; margin-bottom: 2rem;">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required style="width:100%; padding:10px; margin-bottom:10px;"><br>
+          
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" required style="width:100%; padding:10px; margin-bottom:10px;"><br>
+          
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" required style="width:100%; padding:10px; margin-bottom:10px;"></textarea><br>
+          
+            <button type="submit" style="padding:10px 20px; background:#333; color:#fff; border:none;">Send Message</button>
+        </form>
+        <script>
+            function sendMessage(event) {
+              event.preventDefault(); // Prevent actual form submission
+              alert("✅ Your message has been sent! We’ll get back to you soon.");
+              // Optionally reset the form:
+              event.target.reset();
+            }
+          </script>
+        <br>
+        <h2>📇 Contact Directory</h2>
+        
+    <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+        <thead>
+            <tr style="background-color: #000;">
+            <th style="padding: 12px; border: 1px solid #ddd;">Department</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Email</th>
+            <th style="padding: 12px; border: 1px solid #ddd;">Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td style="padding: 12px; border: 1px solid #ddd;">Customer Support</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">support@movieverse.com</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">Mon–Fri, 9am – 6pm</td>
+            </tr>
+            <tr>
+            <td style="padding: 12px; border: 1px solid #ddd;">Advertising</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">ads@movieverse.com</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">Mon–Fri, 10am – 4pm</td>
+            </tr>
+            <tr>
+            <td style="padding: 12px; border: 1px solid #ddd;">Content Submissions</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">content@movieverse.com</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">Mon–Sat, 8am – 8pm</td>
+            </tr>
+            <tr>
+            <td style="padding: 12px; border: 1px solid #ddd;">Technical Support</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">tech@movieverse.com</td>
+            <td style="padding: 12px; border: 1px solid #ddd;">24/7</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+          
+    </body>
+    <footer style="background-color: #111;  color: #fff; text-align: center; padding: 20px; margin-top: 40px;">
+        <p style="margin-bottom: 10px;">&copy; 2025 MovieVerse. All rights reserved.</p>
+        <nav>
+          <a href="index.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Home</a>
+          <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">About</a>
+          <a href="privacy.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Privacy Policy</a>
+        </nav>
+      </footer>
+      
+</html>

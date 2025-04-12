@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kanyingi">
+        <title>MovieVerse</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <h3>MovieVerse</h3>
+            
+            <a href="about.html"><h3 id="about" class="trial">About</h3></a>
+            <a href="contact.html"><h3 id="contact" class="trial1">Contact</h3></a>
+            <a href="privacy.html"><h3 id="privacy">Privacy </h3></a>
+
+        </nav>
+        <section>
+            <style>
+                #slider {
+                  width: 60%;
+                  max-width: 500px;
+                  height: 1000px;
+                  margin: auto;
+                  position: relative;
+                  overflow: hidden;
+                  border-radius: 12px;
+                }
+              
+                .slide {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  display: none;
+                }
+              
+                .arrow {
+                  cursor: pointer;
+                  position: absolute;
+                  top: 50%;
+                  font-size: 30px;
+                  color: white;
+                  transform: translateY(-50%);
+                  z-index: 1;
+                  padding: 10px;
+                  background-color: rgba(0, 0, 0, 0.3);
+                  border-radius: 50%;
+                }
+              
+                .arrow:hover {
+                  background-color: rgba(0, 0, 0, 0.5);
+                }
+              
+                .arrow.left {
+                  left: 15px;
+                }
+              
+                .arrow.right {
+                  right: 15px;
+                }
+              
+                @media (max-width: 768px) {
+                  #slider {
+                    height: 450px;
+                    width: 85%;
+                  }
+                }
+              
+                @media (max-width: 480px) {
+                  #slider {
+                    height: 350px;
+                    width: 90%;
+                  }
+              
+                  .arrow {
+                    font-size: 22px;
+                  }
+                }
+            </style>
+              
+         
+            <div id="slider" style="max-width: 800px; margin: auto; position: relative; overflow: hidden; border-radius: 10px;">
+                <img class="slide" src="images/Babylon-747027954-large.jpg" style="width: 100%; display: none;">
+                <img class="slide" src="images/oppenheimer.jpg" style="width: 100%; display: none;">
+                <img class="slide" src="images/White-Lotus.jpg" style="width: 100%; display: none;">
+                <img class="slide" src="images/TheDarkKnightRises_Poster-1.webp" style="width: 100%; display: none;">
+                <img class="slide" src="images/Hangover.jpg" style="width: 100%; display: none;">
+              
+                <!-- Arrows -->
+                <a onclick="changeSlide(-1)" style="cursor:pointer; position:absolute; top:50%; left:10px; font-size:30px; color:white; transform: translateY(-50%);">&#10094;</a>
+                <a onclick="changeSlide(1)" style="cursor:pointer; position:absolute; top:50%; right:10px; font-size:30px; color:white; transform: translateY(-50%);">&#10095;</a>
+              </div>
+              
+              <script>
+                let currentSlide = 0;
+                const slides = document.getElementsByClassName("slide");
+              
+                function showSlide(index) {
+                  for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slides[index].style.display = "block";
+                }
+              
+                function changeSlide(n) {
+                  currentSlide += n;
+                  if (currentSlide >= slides.length) currentSlide = 0;
+                  if (currentSlide < 0) currentSlide = slides.length - 1;
+                  showSlide(currentSlide);
+                }
+              
+                // Auto-play every 4 seconds
+                setInterval(() => changeSlide(1), 4000);
+              
+                // Initialize
+                showSlide(currentSlide);
+              </script>
+              
+        </section>
+        <section>
+            <div id="movie-container" class="grid-wrapper">
+                
+
+            </div>
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+    <footer style="background-color: #111; color: #fff; text-align: center; padding: 20px; margin-top: 40px;">
+        <p style="margin-bottom: 10px;">&copy; 2025 MovieVerse. All rights reserved.</p>
+        <nav>
+          <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">About</a>
+          <a href="contact.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Contact</a>
+          <a href="privacy.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Privacy Policy</a>
+        </nav>
+    </footer>
+</html>
